@@ -1,0 +1,18 @@
+Practical-4
+
+Iterative Method:
+Definition:
+The iterative factorial method calculates the factorial of a number by repeatedly multiplying the current result by each integer from 1 to n using a loop.
+Time Complexity: O(n)
+Conclusion:
+The iterative method is simple and memory-efficient because it does not create recursive function calls. 
+  It is generally preferred when memory usage is important.
+
+Recursive Factorial:
+
+The recursive factorial method calculates the factorial by repeatedly calling the same function with a
+smaller value until it reaches the base case, where the factorial of 0 or 1 is 1.
+Time Complexity: O(n)
+Conclusion:
+The recursive method provides a simple and mathematically intuitive implementation of factorial. However, it requires additional stack memory for every 
+recursive call, making the iterative method more memory efficient.
