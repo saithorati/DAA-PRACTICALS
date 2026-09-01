@@ -1,0 +1,21 @@
+Practical-2
+I.	Linear Search
+Definition: Linear Search is a simple searching algorithm that checks each element of an array sequentially 
+until the required element is found or the end of the array is reached.
+Unlike Binary Search, Linear Search does not require the array to be sorted. 
+It starts from the first element and compares each element with the target value until a match is found.
+Time Complexity
+Best Case: O(1)
+Average Case: O(n)
+Worst Case: O(n)
+Auxiliary Space
+Linear Search requires O(1) auxiliary space because it uses only a constant amount of additional memory for variables such as the loop counter and search key.
+Conclusion
+Linear Search is a simple and easy-to-implement searching algorithm. 
+It can be used on both sorted and unsorted arrays and does not require any preprocessing of the data.
+However, its O(n) average and worst-case time complexity makes it less efficient than Binary Search for large sorted datasets. 
+It is suitable for small datasets and situations where the data is unsorted.
+
+
+
+
