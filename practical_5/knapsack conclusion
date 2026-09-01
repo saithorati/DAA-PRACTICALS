@@ -1,0 +1,23 @@
+Practical-5
+Implementation of a knapsack problem using dynamic programming.
+
+Definition:
+The 0/1 Knapsack Problem is a combinatorial optimization problem in which we are given n items, where each item has a weight and a value,
+along with a knapsack having a maximum weight capacity W. The objective is to select items such that the total weight
+does not exceed the knapsack capacity while maximizing the total value.
+The term 0/1 means that each item can either be selected (1) or not selected (0). An item cannot be partially selected.
+
+Time Complexity
+The code uses two nested loops: the outer loop runs n times and the inner loop runs W + 1 times. Each iteration performs constant-time operations.
+Time Complexity = O(n × W)
+Auxiliary Space
+The program creates a 2D DP table of size (n + 1) × (W + 1).
+Auxiliary Space = O(n × W)
+Conclusion
+The given program efficiently solves the 0/1 Knapsack Problem using Dynamic Programming. It considers both possibilities for every item—either
+including it or excluding it—and stores the optimal results in the DP table. 
+The algorithm has O(n*W) time complexity and O(n*W) auxiliary space complexity, 
+making it significantly more efficient than the basic recursive approach for suitable values of n and W.
+
+
+
