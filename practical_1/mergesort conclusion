@@ -1,0 +1,14 @@
+
+Practical-1
+
+IV. Merge Sort
+Definition: Merge Sort is a divide-and-conquer sorting algorithm that divides an array into smaller subarrays,
+recursively sorts them, and then merges the sorted subarrays to produce a sorted array.
+
+Time Complexity: Best Case: O (n log n)
+			   Worst Case: O (n log n)
+Space Complexity: O (n)
+
+Conclusion: Merge Sort is an efficient, stable, and predictable sorting algorithm with O(n log n) time complexity in the best, average,
+and worst cases. However, it requires O(n) extra space, making it less memory-efficient than some in-place algorithms.
+
