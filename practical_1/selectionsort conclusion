@@ -1,0 +1,22 @@
+Practical-1
+III. Selection Sort
+Definition
+Selection Sort is a comparison-based sorting algorithm that repeatedly selects the smallest element from the unsorted portion 
+of an array and places it at the beginning of the unsorted portion.
+The algorithm divides the array into two parts: a sorted portion and an unsorted portion.
+In each pass, the minimum element from the unsorted portion is found and swapped with the first element of that portion. 
+process continues until the entire array is sorted.
+Time Complexity
+Best Case: O(n²)
+Average Case: O(n²)
+Worst Case: O(n²)
+Auxiliary Space
+Selection Sort requires O(1) auxiliary space because it sorts the array in-place and uses only a constant amount of additional memory for 
+variables such as the minimum index and temporary variable used during swapping.
+Conclusion
+Selection Sort is a simple and easy-to-understand sorting algorithm. It repeatedly finds the minimum element from the 
+unsorted portion and places it in its correct position.
+Although its time complexity is O(n²) in all cases,
+it has the advantage of requiring only O(1) auxiliary space and performing a limited number of swaps.
+It is therefore suitable for small datasets and situations where minimizing the number of swaps is important.
+
