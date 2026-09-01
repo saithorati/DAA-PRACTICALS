@@ -1,0 +1,13 @@
+Practical -1
+I.	 Bubble Sort:
+Definition: Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in the wrong order.
+
+Time Complexity: Best case: O(n)
+		         Worst Case: O(n2)
+
+Space Complexity: O(1)
+
+Conclusion: Bubble Sort is a simple and easy-to-understand sorting algorithm that repeatedly compares adjacent elements and swaps them if they are in the wrong order.
+After each pass, the largest unsorted element moves to its correct position.
+
+
