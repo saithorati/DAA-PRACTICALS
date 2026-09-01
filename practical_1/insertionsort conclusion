@@ -1,0 +1,22 @@
+		Practical -1
+
+II. Insertion Sort
+Definition
+Insertion Sort is a simple comparison-based sorting algorithm that builds the sorted array one element at a time.
+It works by taking each element and inserting it into its correct position among the previously sorted elements.
+The algorithm starts from the second element and compares it with the elements before it. If the previous elements are greater,
+they are shifted one position to the right until the correct position for the current element is found.
+
+Time Complexity
+Best Case: O(n)
+Average Case: O(n²)
+Worst Case: O(n²)
+Auxiliary Space
+Insertion Sort requires O(1) auxiliary space because it sorts the elements in-place and uses only a small number of
+additional variables such as the key and index variables.
+Conclusion
+Insertion Sort is a simple and efficient algorithm for sorting small or nearly sorted arrays.
+It is easy to implement and requires only O(1) auxiliary space. Although its average and worst-case time complexity is O(n²), 
+it performs very well when the input array is already or almost sorted. Therefore, Insertion Sort is useful for small datasets and 
+situations where simplicity and low memory usage are important.
+
