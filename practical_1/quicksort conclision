@@ -1,0 +1,22 @@
+Practical-1
+V. Quick Sort:
+Definition
+Quick Sort is a divide-and-conquer sorting algorithm that selects an element as a pivot and partitions the array around the pivot.
+After partitioning, elements smaller than the pivot are placed on one side and elements greater than the pivot are placed on the other side.
+The same process is then recursively applied to the left and right subarrays until the entire array becomes sorted.
+Time Complexity
+Best Case: O(n log n)
+Average Case: O(n log n)
+Worst Case: O(n²)
+Auxiliary Space
+Quick Sort uses O(log n) auxiliary space on average due to the recursive function calls.
+In the worst case, when the partitions are highly unbalanced, the recursion depth can become O(n).
+Therefore:
+Average Auxiliary Space: O(log n)
+Worst-Case Auxiliary Space: O(n)
+Conclusion
+Quick Sort is an efficient divide-and-conquer sorting algorithm that works by selecting a pivot and partitioning the array around it.
+It has an average time complexity of O(n log n), making it efficient for large datasets.
+However, its worst-case time complexity can become O(n²) when the partitions are highly unbalanced.
+Quick Sort is widely used because of its good average performance and in-place partitioning approach.
+ 
