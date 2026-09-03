@@ -1,0 +1,22 @@
+Practical-6
+Implementation of chain matrix multiplication using dynamic programming.
+Definition
+Matrix Chain Multiplication (MCM) is a Dynamic Programming technique used to determine the most efficient order of multiplying a sequence of matrices.
+Since matrix multiplication is associative, different parenthesizations produce the same result but may require different numbers of scalar multiplications.
+MCM finds the order that minimizes the total number of scalar multiplications.
+Time Complexity
+O(n³)
+There are three nested loops:
+•	One for the chain length 
+•	One for the starting matrix i 
+•	One for every possible split position k 
+Therefore, the overall time complexity is O(n³).
+Space Complexity
+O(n²)
+The algorithm uses a 2D DP table dp[i][j] to store the minimum multiplication cost for every possible matrix chain.
+Therefore, the space complexity is O(n²).
+Conclusion
+Thus, Matrix Chain Multiplication using Dynamic Programming efficiently finds the optimal order of multiplying
+a sequence of matrices while minimizing the number of scalar multiplications.
+The DP approach avoids repeated calculations by storing solutions to smaller subproblems and has a time complexity of O(n³) and a space complexity of O(n²).
+
