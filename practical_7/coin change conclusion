@@ -1,0 +1,13 @@
+practical 7
+
+Definition:
+Coin Change is a Dynamic Programming problem used to find the minimum number of coins needed to make a given amount.
+
+Time Complexity:
+O(n × amount)
+
+Space Complexity:
+O(amount)
+
+Conclusion:
+The Coin Change algorithm efficiently finds the minimum coins required by storing previously calculated results using Dynamic Programming.
