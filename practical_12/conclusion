@@ -1,0 +1,9 @@
+Conclusion
+The Travelling Salesman Problem is used to find the minimum-cost tour that visits every city exactly once and returns to the starting city. 
+  It checks different possible routes to find the minimum cost.
+
+Time Complexity
+\(O(n!)\) – Because it checks all possible city arrangements.
+
+Space Complexity
+\(O(n)\) – Because it stores the current path and best path.
