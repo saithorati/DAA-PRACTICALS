@@ -1,0 +1,8 @@
+Conclusion
+Kruskal’s algorithm is used to find the Minimum Spanning Tree (MST) of a weighted graph. It selects the minimum-weight edges without forming cycles.
+
+Time Complexity
+\(O(E \log E)\) – Because it sorts all edges by weight.
+
+Space Complexity
+\(O(V + E)\) – Because it stores the edges and parent array.
